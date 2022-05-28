@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "Name":"Setu Patel",
+        "Number":9510710308,
+        "Email":"setupatel2710@gmail.com"
+    },
+    {
+        "id":2,
+        "Name":"Hiren Bodar",
+        "Number":6352189463,
+        "Email":"hirenbodar123@gmail.com"
+    },
+    {
+        "id":3,
+        "Name":"Deep panara",
+        "Number":9578294728,
+        "Email":"deeppanara123@gmail.com"
+    }
+    
+]

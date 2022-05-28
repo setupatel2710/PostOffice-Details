@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMxZe7rjgMwPYrm4u3mk7xi5_pB_LWI77Eg&usqp=CAU"); */
+  /* background-repeat: no-repeat;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  ); */
+  /* background-image: url(""); */
+  background-size: cover;
+
+  /* color: rgb(18, 17, 17); */
+  /* color: white; */
+}
+
+/* div{
+  position: relative;
+  /* text-align: center; */
+
+/* margin-left: 200px;
+  margin-top: 160px;
+}*/
+
+h2 {
+  position: relative;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /* border-radius: 0px; */
+}
+
+label {
+  /* color: white; */
+  margin-right: 5px;
+}
+
+.submit:hover {
+  background-color: greenyellow;
+  border-radius: 2px;
+  height: 25px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.submit {
+  border-radius: 2px;
+  height: 25px;
+  width: 80px;
+  justify-content: center;
+  margin-left: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main-class {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  opacity: 1;
+}
+
+/* th {
+  background-color: black;
+}
+
+tr {
+  background-color: rgb(58, 56, 56);
+} */
+
+.col1 {
+  margin-top: 40px;
+  background-color: aliceblue;
+  height: 400px;
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+h4 {
+  text-align: center;
+  /* padding-left: 150px; */
+}
+
+button {
+  text-align: center;
+  cursor: pointer;
+  background-color: aliceblue;
+  border: 1ex;
+}
+
+button:hover {
+  background-color: rgb(174, 34, 34);
+  color: rgb(254, 252, 252);
+}
+
+.pincodeform {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.headrow:hover {
+  background-color: rgb(208, 101, 101);
+  color: azure;
+}
+.bodyrow:hover {
+  background-color: rgb(210, 147, 147);
+  color: azure;
+}
